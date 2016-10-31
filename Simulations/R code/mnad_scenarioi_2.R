@@ -109,7 +109,7 @@ i <- 1
   }
   # linux command to save results of the simulations in a CSV file
   colnames(estm[[1]])[1:4] <- c("psi10","phat","alpha","m")
-  name1 <- paste("mnad_psi10_scenario", paste(sc[i]),".csv",sep ="")
+  name1 <- paste("mnad_psi10_scenario", paste(sc[i]),"_2.csv",sep ="")
   write.csv(estm[[1]], file = name1, row.names = FALSE)
 
 
